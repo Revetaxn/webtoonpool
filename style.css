@@ -384,11 +384,17 @@ img { max-width: 100%; display: block; }
   color: var(--text-muted);
   font-size: 0.9rem;
   font-weight: 500;
+  position: relative;
 }
 .screenshot-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  aspect-ratio: 9/16;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
+  background: #0f0f15;
+  z-index: 2;
 }
 .screenshot-card .caption {
   padding: 16px 20px;
