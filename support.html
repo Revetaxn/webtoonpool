@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — WebToonPool</title>
+  <meta name="description" content="Get help with WebToonPool. Contact support, read FAQs, and find answers to common questions about the manga reading app.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-glow">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-brand">
+      <div class="logo-icon">W</div>
+      WebToonPool
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+      <li><a href="support.html" class="active">Support</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Need <span class="gradient-text">Help?</span></h1>
+      <p class="subtitle">We're here for you. Find answers or get in touch with our team.</p>
+    </div>
+  </div>
+
+  <!-- Support Cards -->
+  <section class="section-block" style="padding-top: 0;">
+    <div class="container">
+      <div class="support-grid">
+
+        <div class="support-card animate-on-scroll">
+          <div class="icon-wrap">📧</div>
+          <h3>Email Us</h3>
+          <p>Send us an email and we'll get back to you within a few business days.</p>
+          <a href="mailto:webtoonpool@gmail.com" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            webtoonpool@gmail.com
+          </a>
+        </div>
+
+        <div class="support-card animate-on-scroll">
+          <div class="icon-wrap">🗑️</div>
+          <h3>Account Deletion</h3>
+          <p>Want to delete your account? Use the in-app option or contact us directly.</p>
+          <a href="mailto:webtoonpool@gmail.com?subject=Account%20Deletion%20Request" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+            Request Deletion
+          </a>
+        </div>
+
+        <div class="support-card animate-on-scroll">
+          <div class="icon-wrap">📋</div>
+          <h3>Privacy Policy</h3>
+          <p>Learn how we handle your data. Available in English and Turkish.</p>
+          <a href="privacy.html" class="btn btn-secondary" style="width: 100%; justify-content: center;">
+            Read Policy
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section-block" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="label">FAQ</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Quick answers to the most common questions about WebToonPool.</p>
+      </div>
+
+      <div class="faq-list">
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Is WebToonPool free to use?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Yes! WebToonPool offers a free tier with access to all manga titles. You'll see ads on the free plan, but you can upgrade to Bronze, Silver, or Gold for an ad-free experience and additional perks.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How do I download manga for offline reading?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Open the chapter you want to save, then tap the download icon. Downloaded chapters are stored locally on your device. The number of downloads may be limited depending on your subscription tier.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How can I cancel my subscription?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Subscriptions are managed through the App Store (iOS) or Google Play (Android). Go to your device's subscription settings to cancel or change your plan. Your premium features will remain active until the end of the current billing period.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>How do I delete my account?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>You can request account deletion from your Profile settings inside the app (look for "Request Account Deletion"), or send us an email at <a href="mailto:webtoonpool@gmail.com">webtoonpool@gmail.com</a>. We'll process your request and remove your personal data within 30 days.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Can I turn off ads without paying?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>You can disable personalized ads through your device settings, but ads will still be shown on Free and Bronze plans. To remove ads entirely, upgrade to the Silver or Gold tier.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>WebToonPool ücretsiz mi?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Evet! WebToonPool ücretsiz bir plan sunuyor ve tüm manga başlıklarına erişebilirsin. Ücretsiz planda reklam göreceksin, ancak reklamsız deneyim ve ekstra avantajlar için Bronz, Gümüş veya Altın plana geçebilirsin.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Hesabımı nasıl silebilirim?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Uygulama içinde Profil ayarlarından "Hesap Silme Talebinde Bulun" seçeneğini kullanabilir ya da <a href="mailto:webtoonpool@gmail.com">webtoonpool@gmail.com</a> adresine e-posta gönderebilirsin. Talebini 30 gün içinde işleme alıp kişisel verilerini sileriz.</p>
+          </div>
+        </div>
+
+        <div class="faq-item animate-on-scroll">
+          <div class="faq-question" onclick="toggleFaq(this)">
+            <span>Aboneliğimi nasıl iptal ederim?</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="faq-answer">
+            <p>Abonelikler App Store (iOS) veya Google Play (Android) üzerinden yönetilir. Cihazınızın abonelik ayarlarından planını iptal edebilir veya değiştirebilirsin. Premium özellikler mevcut fatura döneminin sonuna kadar aktif kalır.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="section-block">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="label">Contact</span>
+        <h2>Still Have Questions?</h2>
+        <p>Don't hesitate to reach out. We'll do our best to help you as quickly as possible.</p>
+      </div>
+      <div style="text-align: center;" class="animate-on-scroll">
+        <a href="mailto:webtoonpool@gmail.com" class="btn btn-primary" style="font-size: 1.1rem; padding: 18px 48px;">
+          <span>✉️</span> Email Us at webtoonpool@gmail.com
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">WebToonPool</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">Support</a>
+          <a href="mailto:webtoonpool@gmail.com">webtoonpool@gmail.com</a>
+        </div>
+        <div class="footer-copy">&copy; 2025 WebToonPool. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // FAQ accordion
+    function toggleFaq(el) {
+      const item = el.parentElement;
+      const isOpen = item.classList.contains('open');
+      // Close all others
+      document.querySelectorAll('.faq-item').forEach(faq => faq.classList.remove('open'));
+      // Toggle current
+      if (!isOpen) item.classList.add('open');
+    }
+
+    // Scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>

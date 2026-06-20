@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — WebToonPool</title>
+  <meta name="description" content="WebToonPool Privacy Policy. Learn how we collect, use, and protect your data. Available in English and Turkish.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Animated Background -->
+  <div class="bg-glow">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-brand">
+      <div class="logo-icon">W</div>
+      WebToonPool
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html" class="active">Privacy Policy</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1>Privacy <span class="gradient-text">Policy</span></h1>
+      <p class="subtitle">Last updated: June 2025</p>
+    </div>
+  </div>
+
+  <!-- Language Tabs -->
+  <div class="container">
+    <div class="lang-tabs">
+      <button class="lang-tab active" onclick="switchLang('en')" id="tab-en">🇬🇧 English</button>
+      <button class="lang-tab" onclick="switchLang('tr')" id="tab-tr">🇹🇷 Türkçe</button>
+    </div>
+  </div>
+
+  <!-- ==================== ENGLISH ==================== -->
+  <div class="privacy-container">
+    <div class="privacy-content active" id="content-en">
+
+      <nav class="toc" aria-label="Table of contents">
+        <h2>Contents</h2>
+        <ol>
+          <li><a href="#en-1">What We Collect</a></li>
+          <li><a href="#en-2">Why We Use It</a></li>
+          <li><a href="#en-3">Ads</a></li>
+          <li><a href="#en-4">Storage &amp; Security</a></li>
+          <li><a href="#en-5">Who We Share With</a></li>
+          <li><a href="#en-6">How Long We Keep It</a></li>
+          <li><a href="#en-7">Your Rights</a></li>
+          <li><a href="#en-8">International Transfers</a></li>
+          <li><a href="#en-9">Kids</a></li>
+          <li><a href="#en-10">Changes</a></li>
+          <li><a href="#en-11">Get in Touch</a></li>
+        </ol>
+      </nav>
+
+      <div class="policy-section" id="en-1">
+        <h2>1. What We Collect</h2>
+        <h3>Account Info</h3>
+        <p>When you sign up, we ask for a few basics:</p>
+        <ul>
+          <li>Username</li>
+          <li>Email address</li>
+          <li>Password (we only ever store a hashed version, never the actual password you typed)</li>
+
+        </ul>
+        <h3>How You Use the App</h3>
+        <p>Like most apps, we log some activity automatically:</p>
+        <ul>
+          <li>Basic request logs (which feature was used, when, and whether it succeeded)</li>
+          <li>Comments you leave on manga or chapters</li>
+          <li>Purchase and subscription history</li>
+          <li>Your download history (this lives only on your device, not on our servers)</li>
+        </ul>
+        <h3>Device Info</h3>
+        <p>We pick up a bit of technical context too:</p>
+        <ul>
+          <li>Device type and OS version</li>
+          <li>App version</li>
+          <li>IP address (only used to catch suspicious activity, nothing else)</li>
+        </ul>
+      </div>
+
+      <div class="policy-section" id="en-2">
+        <h2>2. Why We Use It</h2>
+        <p>We use what we collect to run the app and keep it working properly:</p>
+        <ul>
+          <li>Keeping your account secure and your session active</li>
+          <li>Processing purchases and managing your subscription</li>
+          <li>Showing comments and letting the community interact</li>
+          <li>Sending you a heads-up when something important changes (security issues, policy updates, etc.)</li>
+          <li>Getting back to you when you reach out for support</li>
+          <li>Spotting and stopping abuse or fraud</li>
+          <li>Meeting our legal obligations</li>
+        </ul>
+      </div>
+
+      <div class="policy-section" id="en-3">
+        <h2>3. Ads</h2>
+        <p>WebToonPool shows ads to help keep the service running. These are served through IronSource (Unity LevelPlay), and their SDK may collect:</p>
+        <ul>
+          <li>Your advertising ID (IDFA on iPhone, GAID on Android)</li>
+          <li>Device identifiers</li>
+          <li>General location (country or region, not your precise location)</li>
+          <li>How you interact with ads</li>
+        </ul>
+
+        <p>Want to turn off personalized ads? You can do that in your phone settings. On iPhone: Settings › Privacy &amp; Security › Tracking. On Android: Settings › Google › Ads.</p>
+      </div>
+
+      <div class="policy-section" id="en-4">
+        <h2>4. Storage &amp; Security</h2>
+        <p>Your account lives on our servers, which are secured with standard protections. Your auth token is kept in your device's encrypted storage, never in plain text. Downloads and reading progress are stored in a local database on your device only.</p>
+        <p>We use HTTPS for all connections, bcrypt-hashed passwords, and JWT tokens for authentication. That said, no system connected to the internet is perfectly bulletproof, and we won't pretend otherwise.</p>
+      </div>
+
+      <div class="policy-section" id="en-5">
+        <h2>5. Who We Share Data With</h2>
+        <p>We don't sell your data. Full stop.</p>
+        <p>We do share limited information with a few services that help us operate:</p>
+        <ul>
+          <li>Apple and Google for handling payments</li>
+          <li>IronSource / Unity for ads</li>
+          <li>Infrastructure providers that keep the app running</li>
+        </ul>
+        <p>Everyone we work with is contractually required to handle your data responsibly and only for the purposes we've agreed on.</p>
+      </div>
+
+      <div class="policy-section" id="en-6">
+        <h2>6. How Long We Keep It</h2>
+        <p>We keep your account data as long as your account is open. Request logs are cleared after 90 days. If you ask us to delete your account, we'll remove your personal data within 30 days, unless there's a specific legal reason we're required to hold onto something.</p>
+      </div>
+
+      <div class="policy-section" id="en-7">
+        <h2>7. Your Rights</h2>
+        <p>Depending on where you live, you may have the right to:</p>
+        <ul>
+          <li>See the data we hold on you</li>
+          <li>Correct anything that's wrong</li>
+          <li>Ask us to delete your account and everything tied to it</li>
+          <li>Limit or object to certain uses of your data</li>
+          <li>Get a portable copy of your data</li>
+        </ul>
+        <p>To make any of these requests, use the "Request Account Deletion" option in your Profile settings, or reach out through the Support section. We'll respond within 30 days.</p>
+      </div>
+
+      <div class="policy-section" id="en-8">
+        <h2>8. International Data Transfers</h2>
+        <p>WebToonPool operates globally, which means your data may be stored or processed outside your home country, including in places with different data protection laws than where you live. When we transfer data internationally, we make sure appropriate safeguards are in place (such as Standard Contractual Clauses for transfers out of the EU/EEA) to ensure your information stays protected.</p>
+      </div>
+
+      <div class="policy-section" id="en-9">
+        <h2>9. Kids</h2>
+        <p>WebToonPool isn't for children under 13 (or under 16 in the EU/EEA). We don't knowingly collect data from anyone under that age. If you think a child has created an account, please reach out and we'll take care of it right away.</p>
+      </div>
+
+      <div class="policy-section" id="en-10">
+        <h2>10. Changes to This Policy</h2>
+        <p>We'll update this policy when needed. If something significant changes, we'll let you know inside the app before the change takes effect. Continuing to use WebToonPool after an update means you're okay with the new version.</p>
+      </div>
+
+      <div class="policy-section" id="en-11">
+        <h2>11. Get in Touch</h2>
+        <p>Got a question about this policy, or want to exercise one of your rights? Head to the Support section in your Profile, or use the "Request Account Deletion" feature. You can also reach us directly at <a href="mailto:webtoonpool@gmail.com">webtoonpool@gmail.com</a> and we try to get back to everyone within a few business days.</p>
+      </div>
+
+    </div>
+
+    <!-- ==================== TURKISH ==================== -->
+    <div class="privacy-content" id="content-tr">
+
+      <nav class="toc" aria-label="İçindekiler">
+        <h2>İçindekiler</h2>
+        <ol>
+          <li><a href="#tr-1">Hangi Bilgileri Topluyoruz</a></li>
+          <li><a href="#tr-2">Neden Kullanıyoruz</a></li>
+          <li><a href="#tr-3">Reklamlar</a></li>
+          <li><a href="#tr-4">Depolama ve Güvenlik</a></li>
+          <li><a href="#tr-5">Kimlerle Paylaşıyoruz</a></li>
+          <li><a href="#tr-6">Ne Kadar Tutuyoruz</a></li>
+          <li><a href="#tr-7">Hakların</a></li>
+          <li><a href="#tr-8">Uluslararası Veri Aktarımları</a></li>
+          <li><a href="#tr-9">Çocuklar</a></li>
+          <li><a href="#tr-10">Değişiklikler</a></li>
+          <li><a href="#tr-11">Bize Ulaş</a></li>
+        </ol>
+      </nav>
+
+      <div class="policy-section" id="tr-1">
+        <h2>1. Hangi Bilgileri Topluyoruz</h2>
+        <h3>Hesap Bilgileri</h3>
+        <p>Kayıt olurken senden birkaç temel bilgi istiyoruz:</p>
+        <ul>
+          <li>Kullanıcı adı</li>
+          <li>E-posta adresi</li>
+          <li>Şifre (yalnızca şifreli/hash halini saklıyoruz, girdiğin gerçek şifreyi hiçbir zaman görmüyoruz)</li>
+
+        </ul>
+        <h3>Uygulama Kullanımın</h3>
+        <p>Çoğu uygulama gibi biz de bazı verileri otomatik olarak kaydediyoruz:</p>
+        <ul>
+          <li>Temel istek günlükleri (hangi özelliğin kullanıldığı, ne zaman ve başarılı olup olmadığı)</li>
+          <li>Manga veya bölümlere yazdığın yorumlar</li>
+          <li>Satın alma ve abonelik geçmişin</li>
+          <li>İndirme geçmişin (bu bilgi sadece kendi cihazında durur, sunucularımıza gitmez)</li>
+        </ul>
+        <h3>Cihaz Bilgileri</h3>
+        <p>Biraz teknik bağlam da alıyoruz:</p>
+        <ul>
+          <li>Cihaz türün ve işletim sistemi sürümün</li>
+          <li>Kullandığın uygulama sürümü</li>
+          <li>IP adresi (yalnızca şüpheli aktiviteleri fark etmek için kullanılıyor, başka bir amacı yok)</li>
+        </ul>
+      </div>
+
+      <div class="policy-section" id="tr-2">
+        <h2>2. Bu Bilgileri Neden Kullanıyoruz</h2>
+        <p>Topladığımız verileri uygulamayı çalıştırmak ve düzgün tutmak için kullanıyoruz:</p>
+        <ul>
+          <li>Hesabını güvende tutmak ve oturumunu aktif bırakmak</li>
+          <li>Satın almaları işlemek ve aboneliğini yönetmek</li>
+          <li>Yorumları göstermek ve topluluk etkileşimine imkân sağlamak</li>
+          <li>Önemli bir şey değiştiğinde seni önceden haberdar etmek (güvenlik sorunu, politika güncellemesi gibi)</li>
+          <li>Destek taleplerini yanıtlamak</li>
+          <li>Kötüye kullanımı ve dolandırıcılığı durdurmak</li>
+          <li>Yasal yükümlülüklerimizi yerine getirmek</li>
+        </ul>
+      </div>
+
+      <div class="policy-section" id="tr-3">
+        <h2>3. Reklamlar</h2>
+        <p>WebToonPool, hizmetin sürdürülebilirliği için reklam gösterir. Reklamlar IronSource (Unity LevelPlay) üzerinden geliyor ve bu SDK şunları toplayabilir:</p>
+        <ul>
+          <li>Reklam kimliğin (iPhone'da IDFA, Android'de GAID)</li>
+          <li>Cihaz tanımlayıcıları</li>
+          <li>Genel konumun (ülke veya bölge düzeyinde, kesin konumun değil)</li>
+          <li>Reklamlarla nasıl etkileşime girdiğin</li>
+        </ul>
+
+        <p>Kişiselleştirilmiş reklamları kapatmak istersen telefon ayarlarından yapabilirsin. iPhone için: Ayarlar › Gizlilik ve Güvenlik › İzleme. Android için: Ayarlar › Google › Reklamlar.</p>
+      </div>
+
+      <div class="policy-section" id="tr-4">
+        <h2>4. Depolama ve Güvenlik</h2>
+        <p>Hesap bilgilerin güvenli sunucularımızda duruyor. Oturum jetonun telefonundaki şifreli depolama alanında saklanır, açık metin olarak hiçbir yerde tutulmaz. İndirmeler ve okuma ilerlemen ise yalnızca kendi cihazındaki yerel bir veritabanına kaydedilir.</p>
+        <p>Tüm bağlantılar HTTPS üzerinden şifreli geçer, şifreler bcrypt ile hashlenir, kimlik doğrulama için JWT kullanırız. Bununla birlikte internete bağlı hiçbir sistemin yüzde yüz güvende olduğunu söyleyemeyiz. Bu konuda dürüst olmak istedik.</p>
+      </div>
+
+      <div class="policy-section" id="tr-5">
+        <h2>5. Kimlerle Paylaşıyoruz</h2>
+        <p>Verilerini satmıyoruz. Nokta.</p>
+        <p>Uygulamayı çalıştırmamıza yardımcı olan birkaç hizmetle sınırlı bilgi paylaşıyoruz:</p>
+        <ul>
+          <li>Ödemeleri işleyen Apple ve Google</li>
+          <li>Reklam için IronSource / Unity</li>
+          <li>Altyapımızı ayakta tutan servis sağlayıcılar</li>
+        </ul>
+        <p>Çalıştığımız herkes, verilerini sorumlu bir şekilde ve yalnızca belirlediğimiz amaçlar doğrultusunda kullanmakla sözleşmeyle yükümlüdür.</p>
+      </div>
+
+      <div class="policy-section" id="tr-6">
+        <h2>6. Verileri Ne Kadar Tutuyoruz</h2>
+        <p>Hesabın açık olduğu sürece hesap verilerini saklarız. İstek günlükleri 90 gün sonra otomatik olarak silinir. Hesabını silmemizi istersen, kanunen tutmamız gereken belirli bir şey olmadıkça kişisel verilerini 30 gün içinde temizleriz.</p>
+      </div>
+
+      <div class="policy-section" id="tr-7">
+        <h2>7. Hakların</h2>
+        <p>Nerede yaşadığına bağlı olarak şu haklara sahip olabilirsin:</p>
+        <ul>
+          <li>Hakkında tuttuğumuz verileri görmek</li>
+          <li>Yanlış bir şey varsa düzeltilmesini istemek</li>
+          <li>Hesabının ve tüm ilgili verilerin silinmesini talep etmek</li>
+          <li>Belirli veri kullanımlarını kısıtlamak veya bunlara itiraz etmek</li>
+          <li>Verilerinin taşınabilir bir kopyasını almak</li>
+        </ul>
+        <p>Bu haklardan herhangi birini kullanmak istersen Profil ayarlarındaki "Hesap Silme Talebinde Bulun" seçeneğine bakabilir ya da Destek bölümünden bize ulaşabilirsin. 30 gün içinde dönmeye çalışırız.</p>
+      </div>
+
+      <div class="policy-section" id="tr-8">
+        <h2>8. Uluslararası Veri Aktarımları</h2>
+        <p>WebToonPool dünya genelinde hizmet verdiği için verilerinin kendi ülken dışında, farklı veri koruma yasalarına sahip yerlerde saklanması veya işlenmesi söz konusu olabilir. Uluslararası aktarım yaptığımızda verilerinin korunmasını sağlamak için gerekli önlemleri alırız (AB/AEA dışına aktarımlarda Standart Sözleşme Maddeleri gibi mekanizmaları kullanırız).</p>
+      </div>
+
+      <div class="policy-section" id="tr-9">
+        <h2>9. Çocuklar</h2>
+        <p>WebToonPool 13 yaşın altındaki çocuklara (AB/AEA'da 16 yaşın altındakilere) yönelik değil. Bu yaş grubundan bilerek veri toplamıyoruz. Bir çocuğun hesap açtığını düşünüyorsan hemen bizimle iletişime geç, gereken adımları atarız.</p>
+      </div>
+
+      <div class="policy-section" id="tr-10">
+        <h2>10. Değişiklikler</h2>
+        <p>Bu politikayı gerektiğinde güncelleyeceğiz. Önemli bir şey değişirse değişiklik yürürlüğe girmeden önce uygulama içinden seni haberdar edeceğiz. Güncellemeden sonra WebToonPool'u kullanmaya devam etmen yeni versiyonu kabul ettiğin anlamına gelir.</p>
+      </div>
+
+      <div class="policy-section" id="tr-11">
+        <h2>11. Bize Ulaş</h2>
+        <p>Bu politikayla ilgili bir sorun mu var, ya da haklarından birini kullanmak mı istiyorsun? Profildeki Destek bölümüne gir veya "Hesap Silme Talebinde Bulun" özelliğini kullan. Doğrudan <a href="mailto:webtoonpool@gmail.com">webtoonpool@gmail.com</a> adresine de yazabilirsin, birkaç iş günü içinde dönmeye çalışırız.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">WebToonPool</div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="support.html">Support</a>
+          <a href="mailto:webtoonpool@gmail.com">webtoonpool@gmail.com</a>
+        </div>
+        <div class="footer-copy">&copy; 2025 WebToonPool. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    // Mobile menu toggle
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Language switcher
+    function switchLang(lang) {
+      document.querySelectorAll('.privacy-content').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.lang-tab').forEach(el => el.classList.remove('active'));
+      document.getElementById('content-' + lang).classList.add('active');
+      document.getElementById('tab-' + lang).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
